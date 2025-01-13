@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom right, rgb(65, 75, 213), rgb(154, 175, 100));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.wrapper{
+    color: aliceblue;
+    background: transparent;
+    border: 2px solid rgba(225,225,225,0.2);
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 0px 20px 20px 20px;
+    border-radius: 25px;
+    width: 350px;
+}
+.wrapper h1{
+    font-family: 'poppins',sans-serif;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.wrapper h3{
+    font-family: 'poppins',sans-serif;
+    font-size: 1rem;
+}
+.wrapper .field::placeholder{
+    color: rgb(255, 255, 255);
+}
+.wrapper .input-box .field{
+    width: 70%;
+    height: 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border: 2px solid rgba(225,225,225,0.2);
+    border-radius: 34px;
+    padding: 20px 45px 20px 20px ;
+
+}
+.wrapper .btn .continue{
+    width: 50%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    
+}
